@@ -1,10 +1,29 @@
 class Dog
-  attr_accessor :name, :breed
+  def initialize
+  end
 
-  def name
+  def set_name(new_name)
+    @name = new_name
+  end
+
+  def get
     @name
   end
-  def breed
-    @breed
-  end
+end
+Dog = Dog.new
+Dog.set_name("lassie")
+puts Dog.get
+
+
+
+
+
+  # attr_accessor :name, :breed
+  # 
+  # def name
+  #   @name
+  # end
+  # def breed
+  #   @breed
+  # end
 end
