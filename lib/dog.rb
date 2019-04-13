@@ -9,7 +9,7 @@ class Dog
       @breed
     end
   end
-end
+
 
   fido = Dog.new
   fido.name = "fido"
