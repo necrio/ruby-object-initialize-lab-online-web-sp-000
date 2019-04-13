@@ -19,7 +19,7 @@ puts Dog.get
 
 
   # attr_accessor :name, :breed
-  # 
+  #
   # def name
   #   @name
   # end
