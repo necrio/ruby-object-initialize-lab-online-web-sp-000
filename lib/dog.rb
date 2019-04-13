@@ -9,7 +9,7 @@ class Dog
   def get
     @name
   end
-end
+
 Dog = Dog.new
 Dog.set_name("lassie")
 puts Dog.get
